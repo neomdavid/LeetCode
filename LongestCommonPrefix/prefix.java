@@ -1,4 +1,7 @@
+package LongestCommonPrefix;
 class Solution {
+
+  //I did not solve this, I have to do this again
   public String longestCommonPrefix(String[] strs) {
       if (strs == null || strs.length == 0) {
           return "";
@@ -22,6 +25,7 @@ class Solution {
               return "";
           }
       }
+      
       
       return prefix;
   }
