@@ -1,7 +1,8 @@
 import java.util.EmptyStackException;
 import java.util.Stack;
 
-
+// I solved this on my own after watching the tutorial
+//I had to chatgpt it for the throw though
 
 class MinStack {
   Stack<Integer> stack = new Stack<>();
