@@ -10,7 +10,8 @@ class SortedTwoSum {
           } else if (curSum < target){
               l++;
           } else{
-              return new int [] {l+1, r+1};
+              // there's a difference between l++/r++ and ++l/++r
+              return new int [] {++l, ++r};
           }
       }
           return new int [] {-1, -1};
