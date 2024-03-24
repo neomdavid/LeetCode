@@ -1,4 +1,6 @@
-class Solution {
+import java.util.Stack;
+
+class dailyTemperaturesailyTemperatures {
   public int[] dailyTemperatures(int[] temperatures) {
       int result [] = new int [temperatures.length];
       Stack <Integer> stack = new Stack();
